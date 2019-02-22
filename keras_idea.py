@@ -24,4 +24,4 @@ model.fit_generator(
         epochs=50,
         validation_data=validation_generator,
         validation_steps=800)
-# 主要需要采用图片增强的方法，并利用fit_generator产生训练样本的同时进行训练
+# 主要需要采用图片增强的方法，并利用fit_generator产生训练样本的同时进行训练.flow_from_directory可以对整个文件夹中的文件进行数据增强
